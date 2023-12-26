@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A<span style="color: #e74c3c;">p</span><span style="color: #e67e22;">r</span><span style="color: #f1c40f;">e</span><span style="color: #2ecc71;">n</span><span style="color: #3498db;">d</span><span style="color: #9b59b6;">a</span>m<span style="color: #e74c3c;">o</span>s <span style="color: #f1c40f;">J</span><span style="color: #3498db;">u</span><span style="color: #2ecc71;">n</span><span style="color: #e67e22;">t</span>o<span style="color: #e74c3c;">s</span></title>
+    <style>
+        body {
+            font-family: 'Consolas', monospace; /* Cambiado a Consolas */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #3498db, #e74c3c, #f1c40f, #2ecc71, #9b59b6);
+            color: #ffffff;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'lobster', sans-serif;
+            font-size: 72px;
+            margin: 0;
+            color: #f5f5dc;
+            font-weight: normal;
+        }
+
+        nav {
+            background-color: transparent;
+            padding: 10px;
+            text-align: center;
+            font-family: 'lobster', sans-serif;
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #e74c3c;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            background-color: transparent;
+        }
+
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3498db;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin-right: 20px;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .whatsapp-container {
+            text-align: center;
+            margin-top: 25%;
+        }
+
+        .whatsapp-button {
+            background-color: #0077cc; /* Cambiado a azul */
+            color: #ffffff;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 32px;
+            font-weight: bold;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aprendamos Juntos</h1>
+    </header>
+
+    <nav>
+        <div class="dropdown">
+            <a href="#">Menú</a>
+            <div class="dropdown-content">
+                <a href="#contacto">Contacto</a>
+                <a href="#conocenos">Conócenos</a>
+                <a href="#preguntas">Preguntas</a>
+                <a href="#especialidades">Áreas de Especialidad</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contenido principal (imagen de maestro, texto) -->
+        <img src="maestro.jpg" alt="Maestro" />
+        <div class="content">
+            <p>Bienvenido a nuestra página. ¡Aprendamos juntos y descubramos nuevas oportunidades! Explora con nosotros un mundo lleno de conocimiento y posibilidades para tu crecimiento académico y profesional.</p>
+            <!-- Botón de WhatsApp -->
+            <div class="whatsapp-container">
+                <a class="whatsapp-button" href="https://wa.me/59175868288" target="_blank">
+                    Contacto por WhatsApp
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contenido adicional (Contacto, Conócenos, Preguntas, Áreas de Especialidad) -->
+
+    <section id="contacto">
+        <table>
+            <tr>
+                <th>Contacto</th>
+            </tr>
+            <tr>
+                <td>Mi teléfono de celular:</td>
+                <td>+591 75868288</td>
+            </tr>
+            <tr>
+                <td>Mi correo electronico:</td>
+                <td><a href="mailto:anreyraca@gmail.com">anreyraca@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td>Canal de YouTube:</td>
+                <td><a href="https://www.youtube.com/@elauxiautotronica7946/videos" target="_blank">Tu Canal de YouTube</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="conocenos">
+        <table>
+            <tr>
+                <th>Conócenos</th>
+            </tr>
+            <tr>
+                <td>Somos un grupo de profesionales en distintas áreas de ingeniería, tecnología y humanística con el objetivo de ayudarte con tus trabajos de investigación, problemas de ciencias exactas como matemáticas, física y química a nivel universitario o como estudiante de unidad educativa de cualquier nivel. Dependiendo al área que necesites, puedes contactarnos al número principal y nosotros te desviaremos al profesional que necesites, para una colaboración personalizada de tu trabajo. También realizamos asesorías de Tesis y proyectos de grado.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="preguntas">
+        <table>
+            <tr>
+                <th>Preguntas</th>
+            </tr>
+            <tr>
+                <td>1. ¿Qué pasos debo seguir para contactar?</td>
+                <td>R. Primero hacer clic en el número de contacto de WhatsApp, segundo realizar la solicitud del trabajo, luego se te brindará el costo del trabajo y se debe depositar. Una vez verificado el pago, se te contactará con el profesional para la entrega del trabajo. Dependiendo al trabajo, este puede ser entregado instantáneamente o un máximo de 48 horas en documento PDF, Word o en fotografía si lo necesitaras a tiempo real.</td>
+            </tr>
+            <tr>
+                <td>2. ¿Qué es lo primero que debo hacer al ponerme en contacto?</td>
+                <td>R. Lo primero que debes hacer es escribir el área en la que necesites ayuda y con qué trabajo te podemos ayudar.</td>
+            </tr>
+            <tr>
+                <td>3. ¿Cómo es el pago por el servicio?</td>
+                <td>R. El pago por el servicio se realiza por cuenta Tigo Money, N° de cuenta Bancaria, Yape.</td>
+            </tr>
+            <tr>
+                <td>4. ¿Existe total confidencialidad?</td>
+                <td>R. No se te pide ningún dato o información personal.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="especialidades">
+        <table>
+            <tr>
+                <th>Áreas de Especialidad</th>
+            </tr>
+            <tr>
+                <td>Tenemos profesionales en distintas áreas con experiencia académica en:</td>
+            </tr>
+            <tr>
+                <td><i>Matemáticas</i></td>
+                <td>Pre-universitaria (Secundaria), Algebra, Cálculo 1, Cálculo 2, Cálculo 3, Variable compleja, Análisis Numérico</td>
+            </tr>
+            <tr>
+                <td><i>Física</i></td>
+                <td>Pre-universitaria (Secundaria), Física 1, Física 2, Física 3, Electromagnetismo, Mecánica de Fluidos, Termodinámica</td>
+            </tr>
+            <tr>
+                <td><i>Química</i></td>
+                <td>Pre-universitaria, Química general, Química orgánica, Química inorgánica, Analítica Cualitativa, Fisicoquímica, Analítica Cuantitativa</td>
+            </tr>
+            <tr>
+                <td><i>Tesis y Proyectos de Grado</i></td>
+                <td>Áreas de Tecnología, Áreas de Ciencias Exactas y Puras, Áreas de Ingeniería, Áreas de Humanidades, Investigación de Estadísticas con Respaldo</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
